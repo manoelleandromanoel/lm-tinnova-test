@@ -14,9 +14,13 @@
 
 ## Exercícios
 1 - Votos em relação ao total de eleitores (_org.example.lm.tinnova.test.Exercise_1_)
+
 2 - Algoritmo de ordenação Bubble Sort (_org.example.lm.tinnova.test.Exercise_2_)
+
 3 - Fatorial (_org.example.lm.tinnova.test.Exercise_3_)
+
 4 - Soma dos multiplos de 3 ou 5 (_org.example.lm.tinnova.test.Exercise_4_)
+
 5 - Cadastro de Veículos (_org.example.lm.tinnova.test.Exercise_5_)
 
 ## Rotas da API - Cadastro de Veículos
