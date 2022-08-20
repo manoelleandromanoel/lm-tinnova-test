@@ -20,9 +20,13 @@
 5 - Cadastro de Veículos (_org.example.lm.tinnova.test.Exercise_5_)
 
 ## Rotas da API - Cadastro de Veículos
-- GET /veiculos _Retorno todos os veículos_
+- GET /veiculos _Retorna todos os veículos_
 - GET /veiculos/{id} _Retorna os detalhes do veículo_
 - POST /veiculos _Adiciona um novo veículo_
 - PUT /veiculos/{id} _Atualiza os dados de um veículo_
 - PATCH /veiculos/{id} _Atualiza apenas alguns dados do veículo_
 - DELETE /veiculos/{id} _Apaga o veículo_
+- GET /veiculos/disponiveis _Exibe a informação de quantos veículos estão como não vendidos na base_
+- GET /veiculos/fabricacao _Exibe a informação da distribuição de veículos por década de fabricação_
+- GET /veiculos/fabricante _Exibe a informação da distribuição de veículos por fabricante_
+- GET /veiculos/ultimaSemana _Exibe os carros registrados durante a última semana_

@@ -1,0 +1,51 @@
+#spring:
+#  flyway:
+#    placeholderReplacement: false
+#    locations:
+#      - classpath:db/migration
+#  jackson:
+#    parser:
+#      ALLOW_NUMERIC_LEADING_ZEROS: true
+#  jpa:
+#    hibernate:
+#      ddl-auto: none
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.H2Dialect
+#        id:
+#          new_generator_mappings: true
+#    show-sql: false
+#  h2:
+#    console:
+#      enabled: true
+#      path: /h2
+#  datasource:
+#    url: jdbc:h2:mem:h2db
+#    username: h2sa
+#    password: admin
+#    driver-class-name: org.h2.Driver
+#    platform: h2
+spring:
+  flyway:
+    placeholderReplacement: false
+    locations:
+      - classpath:db/migration
+  jackson:
+    parser:
+      ALLOW_NUMERIC_LEADING_ZEROS: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL10Dialect
+    show-sql: false
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: password
+  messages:
+    basename: messages/messages
+  output:
+    ansi:
+      enabled: always
